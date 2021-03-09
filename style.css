@@ -1,0 +1,84 @@
+/* GLOBAL */
+html {
+  margin: 0;
+  padding: 0;
+}
+body {
+  width: 80%;
+  margin: auto;
+  font-family: "RocknRoll One", sans-serif;
+}
+
+/* HEADER */
+header {
+  display: flex;
+  height: 10vh;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  background-color: #1d1d1d;
+  color: white;
+}
+
+/* LOGO */
+figure {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  margin-bottom: 15px;
+  padding-top: 50px;
+}
+figure img {
+  height: 200px;
+  border-radius: 40%;
+}
+figcaption {
+  font-size: 2em;
+  font-weight: 600;
+}
+
+/* CONTENT */
+main {
+  background-color: #edeeef;
+}
+.box {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.box article {
+  width: 45%;
+  box-sizing: border-box;
+  padding: 10px;
+  margin-bottom: 20px;
+  text-align: center;
+  border: 3px solid #7e7e7e;
+  border-radius: 20px;
+}
+.box article:nth-of-type(1) {
+  width: 95%;
+}
+.box article ul {
+  padding: 0;
+  list-style: none;
+}
+
+/* FOOTER */
+footer {
+  padding: 15px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #7e7e7e;
+  color: white;
+}
+footer img {
+  height: 50px;
+}
+footer a {
+  text-decoration: none;
+  color: white;
+}
